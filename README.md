@@ -51,7 +51,7 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
 ### Summary and Recommendation
 
   - As indicated above, the accuracy of the initial neural model was 0.724 while the accuracy of the optimized model was 0.703. Here, we see how adding more neurons and hidden layers does not necessarily enhance a deep learning model and in fact, can reduce its accuracy from a more simpler model. Both models fell short of a desired predictive accuracy of at least 75%. Therefore, it is recommended that a different model be tested in order to determine whether a simpler model would demonstrate better performance and achieve a higher accuracy score. For the current analysis, a Random Forest classifier appears to be the best choice to explore to differentiate between successful and unsuccessful nonprofits for the following reasons:
-    - Random Forest classifiers can be used for a binary classification problems such as the current analysis 
+    - Random Forest classifiers can be used for a binary classification as needed in the current analysis 
     - They can train on large datasets such as the one utilized in the current analysis
     - They use minimal code and can achieve comparable predictive accuracy as deep learning models but at a much faster rate
 
