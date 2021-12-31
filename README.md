@@ -56,6 +56,10 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
   
   - The optimized  neural network model was saved to an HDF5 file.
 
+The number of hidden neurons should be between the size of the input layer and the size of the output layer.
+The number of hidden neurons should be 2/3 the size of the input layer, plus the size of the output layer.
+The number of hidden neurons should be less than twice the size of the input layer.
+
 ### Summary and Recommendation
 
   - As indicated above, the accuracy of the initial neural model was 0.724 while the accuracy of the optimized model was 0.703. Here, we see how adding more neurons and hidden layers does not necessarily enhance a deep learning model and in fact, can reduce its accuracy from a more simpler model. Both models fell short of a desired predictive accuracy of at least 75%. Therefore, it is recommended that a different model be tested in order to determine whether a simpler model would demonstrate better performance and achieve a higher accuracy score. For the current analysis, a Random Forest classifier appears to be the best choice to explore to differentiate between successful and unsuccessful nonprofits for the following reasons:
