@@ -19,7 +19,7 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
   - The number of input features used for the initial neural network model was 43.
   - Two hidden layers were added to the model with the first layer containing 80 hidden nodes and the second layer containing 30 hidden nodes. The output layer contained 1 neuron.
   - The activation function "Rectified Linear Unit (ReLU)" was used for the first and second hidden layers while the activation function "Sigmoid" was used for the output layer, due to the project calling for a binary classifier. 
-  - The above specifications of the neural network model were chosen in an effort to match the weekly challenge starter code. However, the following StackExchange discussion provided some guidance regarding model selection parameters, where one of the methods indicated that the number of hidden neurons (e.g., 80 and 30) should be less than twice the size of the input layer (e.g., 86):
+  - The above specifications of the neural network model were chosen in an effort to match the weekly challenge starter code. However, the following StackExchange discussion provided some guidance regarding model selection parameters, where one of the methods indicated that the number of hidden neurons (e.g., 80 and 30 for the current analysis) should be less than twice the size of the input layer (e.g., 86):
 
     https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw
     
