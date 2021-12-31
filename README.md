@@ -28,6 +28,7 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
 ![image](https://user-images.githubusercontent.com/85533099/147799175-0b998066-d4c5-4956-a825-1be2bba1a015.png)
 
   - Evaluation of the model is summarized in the image below:
- ![image](https://user-images.githubusercontent.com/85533099/147799278-c69820d3-3748-4092-98bb-10aaad4f38c6.png)
+  
+![image](https://user-images.githubusercontent.com/85533099/147799278-c69820d3-3748-4092-98bb-10aaad4f38c6.png)
 
 
