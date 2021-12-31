@@ -23,14 +23,18 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
 
     https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw
     
-  - The following image depicts the model structure:
+  - The following image depicts the initial neural network model structure:
 
   ![image](https://user-images.githubusercontent.com/85533099/147799175-0b998066-d4c5-4956-a825-1be2bba1a015.png)
 
-  - Evaluation of the model is summarized in the image below:
+  - The initial neural network model weights were saved at an increment of every 5 epochs. 
+  
+  - Evaluation of the initial neural network model is summarized in the image below:
   
   ![image](https://user-images.githubusercontent.com/85533099/147799331-73a74f2d-5062-463f-bcb8-b846b304ff3a.png)
 
+  - The initial neural network model was saved to an HDF5 file.
+ 
 ### Optimizing the Neural Network Model
 
   - First, two additional features, e.g., "APPLICATION_TYPE" and "SPECIAL_CONSIDERATIONS", were dropped with the identification columns ("EIN" and "NAME") in an effort reduce the number of input features for our neural network model. These two variables seemed to pertain only to the application process and seemed to be superfluous features to include in the neural network model. Therefore, these were considered "noisy variables" and dropped from further analyses. 
@@ -44,9 +48,13 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
    
    ![image](https://user-images.githubusercontent.com/85533099/147799634-3ba9af16-9ccc-4bb0-8623-7d4d5a6e953e.png)
 
-  - Evaluation of the model is summarized in the image below:
+  - The optimized neural network model weights were saved at an increment of every 5 epochs. 
+
+  - Evaluation of the optimized neural network model is summarized in the image below:
 
   ![image](https://user-images.githubusercontent.com/85533099/147831587-e7812630-2611-4ca8-80ac-97242c568f6f.png)
+  
+  - The optimized  neural network model was saved to an HDF5 file.
 
 ### Summary and Recommendation
 
