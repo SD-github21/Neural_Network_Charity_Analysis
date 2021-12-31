@@ -19,7 +19,7 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
   - The number of input features used for the initial neural network model was 43.
   - Two hidden layers were added the model with the first layer containing 80 hidden nodes and the second layer containing 30 hidden nodes. The output layer contained 1 neuron.
   - The activation function "Rectified Linear Unit (ReLU)" was used for the first and second hidden layers while the activation function "Sigmoid" was used for the output layer, due to the project calling for a binary classifier. 
-  - The above specifications of the neural network model were chosen in an effort to match the weekly challenge starter code. However, the following StackExchange discussion provided some guidance regarding model selection parameters, where one of the methods indicated that the number of hidden neurons should be less than twice the size of the input layer:
+  - The above specifications of the neural network model were chosen in an effort to match the weekly challenge starter code. However, the following StackExchange discussion provided some guidance regarding model selection parameters, where one of the methods indicated that the number of hidden neurons (e.g., 80 and 30) should be less than twice the size of the input layer (e.g., 86):
 
     https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw
     
@@ -29,6 +29,28 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
 
   - Evaluation of the model is summarized in the image below:
   
-![image](https://user-images.githubusercontent.com/85533099/147799278-c69820d3-3748-4092-98bb-10aaad4f38c6.png)
+![image](https://user-images.githubusercontent.com/85533099/147799331-73a74f2d-5062-463f-bcb8-b846b304ff3a.png)
+
+### Optimizing the Neural Network Model
+
+  - First, two additional features, e.g., "APPLICATION_TYPE" and "SPECIAL_CONSIDERATIONS", were dropped with the identification columns ("EIN" and "NAME") in an effort reduce the number of input features for our neural network model. These two variables seemed to pertain only to the application process and seemed to be superfluous features to include in the neural network model. Therefore, these were considered "noisy variables" and dropped from further analyses. 
+  
+  - Second, elements were added to the neural network model, which included:
+    - Adding 40 neurons to the second hidden layer
+    - Adding one new hidden layer with 30 neurons
+    - The third hidden layer included a different activation function from the others, i.e., "Leaky ReLU"
+   
+  - A summary of the optimized neural network model is depicted in the image below:
+   
+   ![image](https://user-images.githubusercontent.com/85533099/147799634-3ba9af16-9ccc-4bb0-8623-7d4d5a6e953e.png)
+
+  - Evaluation of the model is summarized in the image below:
+
+  ![image](https://user-images.githubusercontent.com/85533099/147799927-ebb47657-2fb5-4d00-a446-95b3d59a0301.png)
+
+### Summary and Recommendation
+
+  - 
+
 
 
