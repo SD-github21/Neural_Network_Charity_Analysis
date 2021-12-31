@@ -38,7 +38,7 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
   - Second, elements were added to the neural network model, which included:
     - Adding 40 neurons to the second hidden layer
     - Adding one new hidden layer with 30 neurons
-    - The third hidden layer included a different activation function from the others, i.e., "Leaky ReLU"
+    - The third hidden layer included a different activation function from the others, i.e., "Leaky Rectified Linear Unit (Leaky ReLU)"
    
   - A summary of the optimized neural network model is depicted in the image below:
    
