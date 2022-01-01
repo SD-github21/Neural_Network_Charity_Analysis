@@ -65,11 +65,11 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
   
     ![image](https://user-images.githubusercontent.com/85533099/147842425-74d39051-35e3-4230-80cb-8a45a8873d7b.png)
 
-    - A summary of the optimized neural network model Attempt #3 is depicted in the image below:
+  - A summary of the optimized neural network model Attempt #3 is depicted in the image below:
     
     ![image](https://user-images.githubusercontent.com/85533099/147842431-ac491984-a2ea-4513-bebe-e722ab75f058.png)
   
-  - Evaluation of the optimized neural network model Attempt #3 is summarized in the image below:
+ - Evaluation of the optimized neural network model Attempt #3 is summarized in the image below:
     
     ![image](https://user-images.githubusercontent.com/85533099/147842439-e5d7bf94-b32e-4e3c-b1ce-241f5e643d24.png)
  
