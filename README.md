@@ -35,7 +35,7 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
 
   - The initial neural network model was saved to an HDF5 file.
  
-### Optimizing the Neural Network Model -- Attempts #1 - #3
+### Optimizing the Neural Network Model -- Attempts #1 - #3 (contained in file AlphabetSoupCharity_Optimization_revised.ipynb)
 
   - First, two additional features, e.g., "APPLICATION_TYPE" and "SPECIAL_CONSIDERATIONS", were dropped with the identification columns ("EIN" and "NAME") in an effort reduce the number of input features for our neural network model. These two variables seemed to pertain only to the application process and seemed to be superfluous features to include in the neural network model. Therefore, these were considered "noisy variables" and dropped from further analyses. 
   
