@@ -51,19 +51,27 @@ The purpose of the Neural Network Charity analysis was to utilize machine learni
      
   - A summary of the optimized neural network model Attempt #1 is depicted in the image below:
    
-   ![image](https://user-images.githubusercontent.com/85533099/147799634-3ba9af16-9ccc-4bb0-8623-7d4d5a6e953e.png)
+    ![image](https://user-images.githubusercontent.com/85533099/147799634-3ba9af16-9ccc-4bb0-8623-7d4d5a6e953e.png)
 
   - Evaluation of the optimized neural network model Attempt #1 is summarized in the image below:
 
-  ![image](https://user-images.githubusercontent.com/85533099/147831587-e7812630-2611-4ca8-80ac-97242c568f6f.png)
+    ![image](https://user-images.githubusercontent.com/85533099/147831587-e7812630-2611-4ca8-80ac-97242c568f6f.png)
   
   - A summary of the optimized neural network model Attempt #2 is depicted in the image below:
   
+    ![image](https://user-images.githubusercontent.com/85533099/147842421-da5ff2dd-82f2-403b-8129-c23d39bc8e57.png)
+  
   - Evaluation of the optimized neural network model Attempt #2 is summarized in the image below:
   
-  - A summary of the optimized neural network model Attempt #3 is depicted in the image below:
+    ![image](https://user-images.githubusercontent.com/85533099/147842425-74d39051-35e3-4230-80cb-8a45a8873d7b.png)
+
+    - A summary of the optimized neural network model Attempt #3 is depicted in the image below:
+    
+    ![image](https://user-images.githubusercontent.com/85533099/147842431-ac491984-a2ea-4513-bebe-e722ab75f058.png)
   
   - Evaluation of the optimized neural network model Attempt #3 is summarized in the image below:
+    
+    ![image](https://user-images.githubusercontent.com/85533099/147842439-e5d7bf94-b32e-4e3c-b1ce-241f5e643d24.png)
  
 
 ### Summary and Recommendation
